@@ -1,0 +1,276 @@
+// Core variable
+$version: "1.0.1" !default;
+
+// Core colors
+// variable colors red
+$red-900: #b71c1c !default;
+$red-800: #c62828 !default;
+$red-700: #d50000 !default;
+$red-600: #e53935 !default;
+$red-500: #f44336 !default;
+$red-400: #ef5350 !default;
+$red-300: #e57373 !default;
+$red-200: #ef9a9a !default;
+$red-100: #ffcdd2 !default;
+
+// variable colors pink
+$pink-900: #880e4f !default;
+$pink-800: #ad1457 !default;
+$pink-700: #c2185b !default;
+$pink-600: #d81b60 !default;
+$pink-500: #e91e63 !default;
+$pink-400: #ec407a !default;
+$pink-300: #f06292 !default;
+$pink-200: #f48fb1 !default;
+$pink-100: #f8bbd0 !default;
+
+// variable colors purple
+$purple-900: #4a148c !default;
+$purple-800: #6a1b9a !default;
+$purple-700: #7b1fa2 !default;
+$purple-600: #8e24aa !default;
+$purple-500: #9c27b0 !default;
+$purple-400: #ab47bc !default;
+$purple-300: #ba68c8 !default;
+$purple-200: #ce93d8 !default;
+$purple-100: #e1bee7 !default;
+
+// variable colors indigo
+$indigo-900: #1a237e !default;
+$indigo-800: #283593 !default;
+$indigo-700: #303f9f !default;
+$indigo-600: #3949ab !default;
+$indigo-500: #3f51b5 !default;
+$indigo-400: #5c6bc0 !default;
+$indigo-300: #7986cb !default;
+$indigo-200: #9fa8da !default;
+$indigo-100: #c5cae9 !default;
+
+// variable colors blue
+$blue-900: #0d47a1 !default;
+$blue-800: #1565c0 !default;
+$blue-700: #1976d2 !default;
+$blue-600: #1e88e5 !default;
+$blue-500: #2196f3 !default;
+$blue-400: #42a5f5 !default;
+$blue-300: #64b5f6 !default;
+$blue-200: #90caf9 !default;
+$blue-100: #bbdefb !default;
+
+// variable colors cyan
+$cyan-900: #006064 !default;
+$cyan-800: #00838f !default;
+$cyan-700: #0097a7 !default;
+$cyan-600: #00acc1 !default;
+$cyan-500: #00bcd4 !default;
+$cyan-400: #26c6da !default;
+$cyan-300: #4dd0e1 !default;
+$cyan-200: #80deea !default;
+$cyan-100: #b2ebf2 !default;
+
+// variable colors teal
+$teal-900: #004d40 !default;
+$teal-800: #00695c !default;
+$teal-700: #00796b !default;
+$teal-600: #00897b !default;
+$teal-500: #009688 !default;
+$teal-400: #26a69a !default;
+$teal-300: #4db6ac !default;
+$teal-200: #80cbc4 !default;
+$teal-100: #b2dfdb !default;
+
+// variable colors green
+$green-900: #1b5e20 !default;
+$green-800: #2e7d32 !default;
+$green-700: #388e3c !default;
+$green-600: #43a047 !default;
+$green-500: #4caf50 !default;
+$green-400: #66bb6a !default;
+$green-300: #81c784 !default;
+$green-200: #a5d6a7 !default;
+$green-100: #c8e6c9 !default;
+
+// variable colors yellow
+$yellow-900: #f57f17 !default;
+$yellow-800: #f9a825 !default;
+$yellow-700: #fbc02d !default;
+$yellow-600: #fdd835 !default;
+$yellow-500: #ffeb3b !default;
+$yellow-400: #ffee58 !default;
+$yellow-300: #fff176 !default;
+$yellow-200: #fff59d !default;
+$yellow-100: #fff9c4 !default;
+
+// variable colors orange
+$orange-900: #bf360c !default;
+$orange-800: #d84315 !default;
+$orange-700: #e64a19 !default;
+$orange-600: #f4511e !default;
+$orange-500: #ff5722 !default;
+$orange-400: #ff7043 !default;
+$orange-300: #ff8a65 !default;
+$orange-200: #ffab91 !default;
+$orange-100: #ffccbc !default;
+
+// variable colors brown
+$brown-900: #3e2723 !default;
+$brown-800: #4e342e !default;
+$brown-700: #5d4037 !default;
+$brown-600: #6d4c41 !default;
+$brown-500: #795548 !default;
+$brown-400: #8d6e63 !default;
+$brown-300: #a1887f !default;
+$brown-200: #bcaaa4 !default;
+$brown-100: #d7ccc8 !default;
+
+// variable colors dark
+$dark-900: #17202a !default;
+$dark-800: #1c2833 !default;
+$dark-700: #212f3d !default;
+$dark-600: #273746 !default;
+$dark-500: #2c3e50 !default;
+$dark-400: #566573 !default;
+$dark-300: #808b96 !default;
+$dark-200: #abb2b9 !default;
+$dark-100: #d5d8dc !default;
+
+$colors: (
+  "red-100":    $red-100,
+  "red-200":    $red-200,
+  "red-300":    $red-300,
+  "red-400":    $red-400,
+  "red-500":    $red-500,
+  "red-600":    $red-600,
+  "red-700":    $red-700,
+  "red-800":    $red-800,
+  "red-900":    $red-900,
+  "pink-100":    $pink-100,
+  "pink-200":    $pink-200,
+  "pink-300":    $pink-300,
+  "pink-400":    $pink-400,
+  "pink-500":    $pink-500,
+  "pink-600":    $pink-600,
+  "pink-700":    $pink-700,
+  "pink-800":    $pink-800,
+  "pink-900":    $pink-900,
+  "purple-100":     $purple-100,
+  "purple-200":     $purple-200,
+  "purple-300":     $purple-300,
+  "purple-400":     $purple-400,
+  "purple-500":     $purple-500,
+  "purple-600":     $purple-600,
+  "purple-700":     $purple-700,
+  "purple-800":     $purple-800,
+  "purple-900":     $purple-900,
+  "indigo-100":     $indigo-100,
+  "indigo-200":     $indigo-200,
+  "indigo-300":     $indigo-300,
+  "indigo-400":     $indigo-400,
+  "indigo-500":     $indigo-500,
+  "indigo-600":     $indigo-600,
+  "indigo-700":     $indigo-700,
+  "indigo-800":     $indigo-800,
+  "indigo-900":     $indigo-900,
+  "blue-100":     $blue-100,
+  "blue-200":     $blue-200,
+  "blue-300":     $blue-300,
+  "blue-400":     $blue-400,
+  "blue-500":     $blue-500,
+  "blue-600":     $blue-600,
+  "blue-700":     $blue-700,
+  "blue-800":     $blue-800,
+  "blue-900":     $blue-900,
+  "cyan-100":     $cyan-100,
+  "cyan-200":     $cyan-200,
+  "cyan-300":     $cyan-300,
+  "cyan-400":     $cyan-400,
+  "cyan-500":     $cyan-500,
+  "cyan-600":     $cyan-600,
+  "cyan-700":     $cyan-700,
+  "cyan-800":     $cyan-800,
+  "cyan-900":     $cyan-900,
+  "teal-100":     $teal-100,
+  "teal-200":     $teal-200,
+  "teal-300":     $teal-300,
+  "teal-400":     $teal-400,
+  "teal-500":     $teal-500,
+  "teal-600":     $teal-600,
+  "teal-700":     $teal-700,
+  "teal-800":     $teal-800,
+  "teal-900":     $teal-900,
+  "green-100":     $green-100,
+  "green-200":     $green-200,
+  "green-300":     $green-300,
+  "green-400":     $green-400,
+  "green-500":     $green-500,
+  "green-600":     $green-600,
+  "green-700":     $green-700,
+  "green-800":     $green-800,
+  "green-900":     $green-900,
+  "yellow-100":     $yellow-100,
+  "yellow-200":     $yellow-200,
+  "yellow-300":     $yellow-300,
+  "yellow-400":     $yellow-400,
+  "yellow-500":     $yellow-500,
+  "yellow-600":     $yellow-600,
+  "yellow-700":     $yellow-700,
+  "yellow-800":     $yellow-800,
+  "yellow-900":     $yellow-900,
+  "orange-100":     $orange-100,
+  "orange-200":     $orange-200,
+  "orange-300":     $orange-300,
+  "orange-400":     $orange-400,
+  "orange-500":     $orange-500,
+  "orange-600":     $orange-600,
+  "orange-700":     $orange-700,
+  "orange-800":     $orange-800,
+  "orange-900":     $orange-900,
+  "brown-100":     $brown-100,
+  "brown-200":     $brown-200,
+  "brown-300":     $brown-300,
+  "brown-400":     $brown-400,
+  "brown-500":     $brown-500,
+  "brown-600":     $brown-600,
+  "brown-700":     $brown-700,
+  "brown-800":     $brown-800,
+  "brown-900":     $brown-900,
+  "dark-100":     $dark-100,
+  "dark-200":     $dark-200,
+  "dark-300":     $dark-300,
+  "dark-400":     $dark-400,
+  "dark-500":     $dark-500,
+  "dark-600":     $dark-600,
+  "dark-700":     $dark-700,
+  "dark-800":     $dark-800,
+  "dark-900":     $dark-900
+)!default;
+
+$dark-theme-background: #212121;
+$dark-theme-base: #f1f1f1;
+$dark-theme-text: #f1f1f1;
+
+$light-theme-background: #f1f1f1;
+$light-theme-base: #212121;
+$light-theme-text: #212121;
+
+$default-theme-background: #ffffff;
+$default-theme-base: #000000;
+$default-theme-text: #000000;
+
+$transparent-theme-background: transparent;
+$transparent-theme-base: transparent;
+$transparent-theme-color: transparent;
+
+$floating-left: left;
+$floating-right: right;
+
+// variable fonts
+$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" ,"Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif !default;
+$mono-font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+
+// variable desktop sizes
+$control-width-xs: 180px !default;
+$control-width-sm: 320px !default;
+$control-width-md: 640px !default;
+$control-width-lg: 960px !default;
+$control-width-xl: 1280px !default;

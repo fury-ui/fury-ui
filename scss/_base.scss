@@ -1,0 +1,91 @@
+::-webkit-selection{
+  background-color: rgb(39, 55, 70);
+  color: rgb(255, 255, 255);
+}
+::-moz-selection{
+  background-color: rgb(39, 55, 70);
+  color: rgb(255, 255, 255);
+}
+::selection{
+  background-color: rgb(39, 55, 70);
+  color: rgb(255, 255, 255);
+}
+textarea::-webkit-selection,
+input::-webkit-selection{
+  background-color: rgb(39, 55, 70);
+  color: rgb(255, 255, 255);
+}
+textarea::-moz-selection,
+input::-moz-selection{
+  background-color: rgb(39, 55, 70);
+  color: rgb(255, 255, 255);
+}
+textarea::selection,
+input::selection{
+  background-color: rgb(39, 55, 70);
+  color: rgb(255, 255, 255);
+}
+html,
+body{
+  height: 100%;
+  font-size: 14px;
+  letter-spacing: .1px;
+}
+html{
+  font-family: sans-serif;
+  line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  min-width: $control-width-sm;
+  font-family: $base-font-family;
+  line-height: 1.4285em;
+  color: $dark-700;
+  text-align: left;
+  background-color: $default-theme-background;
+  font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+canvas {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.clearfix:before,
+.clearfix:after,
+.grid:before,
+.grid:after{
+  content: " ";
+  display: table;
+}
+.clearfix:after,
+.grid:after{
+  clear: both;
+}
+small,
+.small {
+  font-size: 92%;
+}
+mark,
+.mark {
+  background-color: $light-theme-background;
+  padding: .2em;
+}
+abbr[title],
+abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted $dark-700;
+}
+.float.left{
+  float: $floating-left;
+}
+.float.right{
+  float: $floating-right;
+}

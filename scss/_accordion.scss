@@ -1,0 +1,141 @@
+.list-accordion{
+  margin-bottom: 1em;
+}
+
+.accordion-header {
+  width: 100%;
+  display: block;
+  background-color: $dark-100;
+  color: $dark-700;
+  padding: 1em;
+  line-height: 1.42857143;
+    -webkit-transition:all 0.7s ease-in-out;
+    -moz-transition:all 0.7s ease-in-out;
+    -ms-transition:all 0.7s ease-in-out;
+    -o-transition:all 0.7s ease-in-out;
+  transition:all 0.7s ease-in-out;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.accordion-body {
+  padding-left: 1em;
+  padding-bottom: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  overflow: hidden;
+  display: none;
+  border: 1px solid #dedede;
+  color: #999999;
+}
+
+.list-accordion.red > .accordion-header,
+.list-accordion.pink > .accordion-header,
+.list-accordion.purple > .accordion-header,
+.list-accordion.indigo > .accordion-header,
+.list-accordion.blue > .accordion-header,
+.list-accordion.cyan > .accordion-header,
+.list-accordion.teal > .accordion-header,
+.list-accordion.green > .accordion-header,
+.list-accordion.yellow > .accordion-header,
+.list-accordion.orange > .accordion-header,
+.list-accordion.brown > .accordion-header,
+.list-accordion.dark > .accordion-header{
+  color: #dedede;
+}
+
+.list-accordion.red > .accordion-header{
+  background-color: $red-700;
+}
+.list-accordion.red > .accordion-body{
+  border: 1px solid $red-700;
+  color: $red-700;
+}
+
+.list-accordion.pink > .accordion-header{
+  background-color: $pink-700;
+}
+.list-accordion.pink > .accordion-body{
+  border: 1px solid $pink-700;
+  color: $pink-700;
+}
+
+.list-accordion.purple > .accordion-header{
+  background-color: $purple-700;
+}
+.list-accordion.purple > .accordion-body{
+  border: 1px solid $purple-700;
+  color: $purple-700;
+}
+
+.list-accordion.indigo > .accordion-header{
+  background-color: $indigo-700;
+}
+.list-accordion.indigo > .accordion-body{
+  border: 1px solid $indigo-700;
+  color: $indigo-700;
+}
+
+.list-accordion.blue > .accordion-header{
+  background-color: $blue-700;
+}
+.list-accordion.blue > .accordion-body{
+  border: 1px solid $blue-700;
+  color: $blue-700;
+}
+
+.list-accordion.cyan > .accordion-header{
+  background-color: $cyan-700;
+}
+.list-accordion.cyan > .accordion-body{
+  border: 1px solid $cyan-700;
+  color: $cyan-700;
+}
+
+.list-accordion.teal > .accordion-header{
+  background-color: $teal-700;
+}
+.list-accordion.teal > .accordion-body{
+  border: 1px solid $teal-700;
+  color: $teal-700;
+}
+
+.list-accordion.green > .accordion-header{
+  background-color: $green-700;
+}
+.list-accordion.green > .accordion-body{
+  border: 1px solid $green-700;
+  color: $green-700;
+}
+
+.list-accordion.yellow > .accordion-header{
+  background-color: $yellow-700;
+}
+.list-accordion.yellow > .accordion-body{
+  border: 1px solid $yellow-700;
+  color: $yellow-700;
+}
+
+.list-accordion.orange > .accordion-header{
+  background-color: $orange-700;
+}
+.list-accordion.orange > .accordion-body{
+  border: 1px solid $orange-700;
+  color: $orange-700;
+}
+
+.list-accordion.brown > .accordion-header{
+  background-color: $brown-700;
+}
+.list-accordion.brown > .accordion-body{
+  border: 1px solid $brown-700;
+  color: $brown-700;
+}
+
+.list-accordion.dark > .accordion-header{
+  background-color: $dark-700;
+}
+.list-accordion.dark > .accordion-body{
+  border: 1px solid $dark-700;
+  color: $dark-700;
+}

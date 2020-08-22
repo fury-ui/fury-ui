@@ -1,0 +1,314 @@
+[data-whatinput="mouse"] button{
+  outline: 0;
+}
+[class*="button"],
+[class^="button"],
+[role="button"]{
+  cursor: pointer;
+  text-decoration: none;
+}
+.button.block{
+  display: block;
+  width: 100%;
+}
+.button.block + .button.block{
+  margin-top: 0.5rem;
+}
+.button.capsule{
+  border-radius: 26rem;
+}
+.button.circle{
+  border-radius: 100rem;
+}
+.button.large{
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+}
+.button.small{
+  padding: .25rem .5rem;
+  font-size: .75rem;
+}
+.button{
+  padding: .4rem .8rem;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: .26rem;
+  margin: 0.3em;
+  line-height: 1.5;
+  vertical-align: middle;
+  position: relative;
+  white-space: nowrap;
+  cursor: pointer;
+  overflow: hidden;
+  user-select: none;
+  text-align: center;
+  display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  touch-action: manipulation;
+    -ms-touch-action: manipulation;
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -ms-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+  transition:all 0.4s ease-in-out;
+  background-color: rgba(33, 33, 33, 0.02);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.button:hover,
+.button:focus,
+.button:active{
+  outline: 0;
+  text-decoration: none;
+    -webkit-transition: all 0.7s cubic-bezier(0.25, 0.19, 0.64, 1.36);
+    -moz-transition: all 0.7s cubic-bezier(0.25, 0.19, 0.64, 1.36);
+    -o-transition: all 0.7s cubic-bezier(0.25, 0.19, 0.64, 1.36);
+    -ms-transition: all 0.7s cubic-bezier(0.25, 0.19, 0.64, 1.36);
+  transition: all 0.7s cubic-bezier(0.25, 0.19, 0.64, 1.36);
+}
+.button.red{
+  background-color: $red-700;
+  border: 0.18rem solid $red-700;
+  color: $dark-theme-text;
+}
+.button.red:hover{
+  background-color: $red-600;
+  color: $dark-theme-text;
+}
+.button.red:focus,
+.button.red:active{
+  border: 0.18rem solid $red-700;
+  background-color: $red-600;
+}
+
+[class*="button pink"],
+[class^="button pink"]{
+  background-color: $pink-700;
+  border: 0.18rem solid $pink-700;
+  color: $dark-theme-text;
+}
+[class*="button pink"]:hover,
+[class^="button pink"]:hover{
+  background-color: $pink-600;
+  color: $dark-theme-text;
+}
+[class*="button pink"]:focus,
+[class^="button pink"]:focus,
+[class*="button pink"]:active,
+[class^="button pink"]:active{
+  border: 0.18rem solid $pink-700;
+  background-color: $pink-600;
+}
+
+[class*="button purple"],
+[class^="button purple"]{
+  background-color: $purple-700;
+  border: 0.18rem solid $purple-700;
+  color: $dark-theme-text;
+}
+[class*="button purple"]:hover,
+[class^="button purple"]:hover{
+  background-color: $purple-600;
+  color: $dark-theme-text;
+}
+[class*="button purple"]:focus,
+[class^="button purple"]:focus,
+[class*="button purple"]:active,
+[class^="button purple"]:active{
+  border: 0.18rem solid $purple-700;
+  background-color: $purple-600;
+}
+
+[class*="button indigo"],
+[class^="button indigo"]{
+  background-color: $indigo-700;
+  border: 0.18rem solid $indigo-700;
+  color: $dark-theme-text;
+}
+[class*="button indigo"]:hover,
+[class^="button indigo"]:hover{
+  background-color: $indigo-600;
+  color: $dark-theme-text;
+}
+
+[class*="button indigo"]:focus,
+[class^="button indigo"]:focus,
+[class*="button indigo"]:focus,
+[class^="button indigo"]:focus{
+  border: 0.18rem solid $indigo-700;
+  background-color: $indigo-600;
+}
+
+[class*="button blue"],
+[class^="button blue"]{
+  background-color: $blue-700;
+  border: 0.18rem solid $blue-700;
+  color: $dark-theme-text;
+}
+[class*="button blue"]:hover,
+[class^="button blue"]:hover{
+  background-color: $blue-600;
+  color: $dark-theme-text;
+}
+[class*="button blue"]:focus,
+[class^="button blue"]:focus,
+[class*="button blue"]:active,
+[class^="button blue"]:active{
+  border: 0.18rem solid $blue-700;
+  background-color: $blue-600;
+}
+
+[class*="button cyan"],
+[class^="button cyan"]{
+  background-color: $cyan-700;
+  border: 0.18rem solid $cyan-700;
+  color: $dark-theme-text;
+}
+[class*="button cyan"]:hover,
+[class^="button cyan"]:hover{
+  background-color: $cyan-600;
+  color: $dark-theme-text;
+}
+[class*="button cyan"]:focus,
+[class^="button cyan"]:focus,
+[class*="button cyan"]:active,
+[class^="button cyan"]:active{
+  border: 0.18rem solid $cyan-700;
+  background-color: $cyan-600;
+}
+
+[class*="button teal"],
+[class^="button teal"]{
+  background-color: $teal-700;
+  border: 0.18rem solid $teal-700;
+  color: $dark-theme-text;
+}
+[class*="button teal"]:hover,
+[class^="button teal"]:hover{
+  background-color: $teal-600;
+  color: $dark-theme-text;
+}
+[class*="button teal"]:focus,
+[class^="button teal"]:focus,
+[class*="button teal"]:active,
+[class^="button teal"]:active{
+  border: 0.18rem solid $teal-700;
+  background-color: $teal-600;
+}
+
+[class*="button green"],
+[class^="button green"]{
+  background-color: $green-700;
+  border: 0.18rem solid $green-700;
+  color: $dark-theme-text;
+}
+[class*="button green"]:hover,
+[class^="button green"]:hover{
+  background-color: $green-600;
+  color: $dark-theme-text;
+}
+[class*="button green"]:focus,
+[class^="button green"]:focus,
+[class*="button green"]:active,
+[class^="button green"]:active{
+  border: 0.18rem solid $green-700;
+  background-color: $green-600;
+}
+
+[class*="button yellow"],
+[class^="button yellow"]{
+  background-color: $yellow-700;
+  border: 0.18rem solid $yellow-700;
+  color: $dark-theme-text;
+}
+[class*="button yellow"]:hover,
+[class^="button yellow"]:hover{
+  background-color: $yellow-600;
+  color: $dark-theme-text;
+}
+[class*="button yellow"]:focus,
+[class^="button yellow"]:focus,
+[class*="button yellow"]:active,
+[class^="button yellow"]:active{
+  border: 0.18rem solid $yellow-700;
+  background-color: $yellow-600;
+}
+
+[class*="button orange"],
+[class^="button orange"]{
+  background-color: $orange-700;
+  border: 0.18rem solid $orange-700;
+  color: $dark-theme-text;
+}
+[class*="button orange"]:hover,
+[class^="button orange"]:hover{
+  background-color: $orange-600;
+  color: $dark-theme-text;
+}
+[class*="button orange"]:focus,
+[class^="button orange"]:focus,
+[class*="button orange"]:active,
+[class^="button orange"]:active{
+  border: 0.18rem solid $orange-700;
+  background-color: $orange-600;
+}
+
+[class*="button brown"],
+[class^="button brown"]{
+  background-color: $brown-700;
+  border: 0.18rem solid $brown-700;
+  color: $dark-theme-text;
+}
+[class*="button brown"]:hover,
+[class^="button brown"]:hover{
+  background-color: $brown-600;
+  color: $dark-theme-text;
+}
+[class*="button brown"]:focus,
+[class^="button brown"]:focus,
+[class*="button brown"]:active,
+[class^="button brown"]:active{
+  border: 0.18rem solid $brown-700;
+  background-color: $brown-600;
+}
+
+[class*="button dark"],
+[class^="button dark"]{
+  background-color: $dark-700;
+  border: 0.18rem solid $dark-700;
+  color: $dark-theme-text;
+}
+[class*="button dark"]:hover,
+[class^="button dark"]:hover{
+  background-color: $dark-600;
+  color: $dark-theme-text;
+}
+[class*="button dark"]:focus,
+[class^="button dark"]:focus,
+[class*="button dark"]:active,
+[class^="button dark"]:active{
+  border: 0.18rem solid $dark-700;
+  background-color: $dark-600;
+}
+
+[class*="button light"],
+[class^="button light"]{
+  background-color: $dark-100;
+  border: 0.18rem solid $dark-100;
+  color: $dark-700;
+}
+[class*="button light"]:hover,
+[class^="button light"]:hover{
+  background-color: $dark-theme-base;
+  color: $dark-700;
+}
+[class*="button light"]:focus,
+[class^="button light"]:focus,
+[class*="button light"]:active,
+[class^="button light"]:active{
+  border: 0.18rem solid $dark-100;
+  background-color: $dark-theme-base;
+}

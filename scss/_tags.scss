@@ -1,0 +1,106 @@
+.tags{
+  display: inline;
+  padding: .4em .6em;
+  line-height: 1;
+  font-size: 75%;
+  font-weight: bold;
+  color: $light-theme-background;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 5px;
+  border-left-width: 4px;
+  border-left-style: solid;
+  border-right-width: 4px;
+  border-right-style: solid;
+}
+.tags:hover{
+	transition: box-shadow 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.tags.circle{
+  border-radius: 0;
+}
+.button .tags{
+  font-size: 65%;
+}
+.button .tags.red,
+.button .tags.pink,
+.button .tags.purple,
+.button .tags.indigo,
+.button .tags.blue,
+.button .tags.cyan,
+.button .tags.teal,
+.button .tags.green,
+.button .tags.yellow,
+.button .tags.orange,
+.button .tags.brown,
+.button .tags.dark,
+.button .tags.light{
+  background-color: $transparent-theme-background;
+}
+.tags.red{
+  background-color: $red-700;
+  border-left-color: $red-700;
+  border-right-color: $red-700;
+}
+.tags.pink{
+  background-color: $pink-700;
+  border-left-color: $pink-700;
+  border-right-color: $pink-700;
+}
+.tags.purple{
+  background-color: $purple-700;
+  border-left-color: $purple-700;
+  border-right-color: $purple-700;
+}
+.tags.indigo{
+  background-color: $indigo-700;
+  border-left-color: $indigo-700;
+  border-right-color: $indigo-700;
+}
+.tags.blue{
+  background-color: $blue-700;
+  border-left-color: $blue-700;
+  border-right-color: $blue-700;
+}
+.tags.cyan{
+  background-color: $cyan-700;
+  border-left-color: $cyan-700;
+  border-right-color: $cyan-700;
+}
+.tags.teal{
+  background-color: $teal-700;
+  border-left-color: $teal-700;
+  border-right-color: $teal-700;
+}
+.tags.green{
+  background-color: $green-700;
+  border-left-color: $green-700;
+  border-right-color: $green-700;
+}
+.tags.yellow{
+  background-color: $yellow-700;
+  border-left-color: $yellow-700;
+  border-right-color: $yellow-700;
+}
+.tags.orange{
+  background-color: $orange-700;
+  border-left-color: $orange-700;
+  border-right-color: $orange-700;
+}
+.tags.brown{
+  background-color: $brown-700;
+  border-left-color: $brown-700;
+  border-right-color: $brown-700;
+}
+.tags.dark{
+  background-color: $dark-700;
+  border-left-color: $dark-700;
+  border-right-color: $dark-700;
+}
+.tags.light{
+  background-color: $light-theme-background;
+  border-left-color: $light-theme-background;
+  border-right-color: $light-theme-background;
+  color: $dark-theme-background;
+}

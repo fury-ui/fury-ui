@@ -1,0 +1,48 @@
+.hero{
+  background-color: $light-theme-background;
+  word-wrap: break-word;
+  position: relative;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  background-clip: border-box;
+}
+
+.hero p{
+  margin-bottom: 15px;
+  font-size: 1.150917em; /* this date meried me and my wife. Sept, 15 2017 (^_^) */
+  font-weight: 400;
+}
+
+.hero > hr{
+  border-top-color: #dcdcdc;
+}
+
+.container .hero,
+.container.full .hero{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+.hero .container{
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 768px){
+ .hero{
+   padding-top: 48px;
+   padding-bottom: 48px;
+ }
+ .container .hero,.container.full .hero{
+   padding-left: 60px;
+   padding-right: 60px;
+ }
+ .hero h1,.hero .h1{
+   font-size: 2.5rem;
+ }
+}

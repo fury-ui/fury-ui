@@ -1,0 +1,16 @@
+section,
+.section{
+  padding: 3rem 1.5rem;
+  display: block;
+}
+
+@media screen and (min-width: 1024px){
+  section.medium,
+  .section.medium{
+    padding: 9rem 1.5rem;
+  }
+  section.large,
+  .section.large{
+    padding: 18rem 1.5rem;
+  }
+}

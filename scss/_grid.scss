@@ -1,0 +1,99 @@
+.grid{
+	display: flex;
+	flex-direction: column;
+}
+.grid::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.grid [class^="column"],
+.grid [class*="column"]{
+  float: left;
+  min-height: 0.125rem;
+  display: block;
+  flex: 1;
+  margin: .6em;
+}
+[class*="column one"],
+[class^="column one"],
+[class*="column two"],
+[class^="column two"],
+[class*="column three"],
+[class^="column three"],
+[class*="column four"],
+[class^="column four"],
+[class*="column five"],
+[class^="column five"],
+[class*="column six"],
+[class^="column six"],
+[class*="column seven"],
+[class^="column seven"],
+[class*="column eight"],
+[class^="column eight"],
+[class*="column nine"],
+[class^="column nine"],
+[class*="column ten"],
+[class^="column ten"],
+[class*="column eleven"],
+[class^="column eleven"],
+[class*="column twelev"],
+[class^="column twelev"]{
+  width: 100%;
+  padding: 15px;
+}
+
+@media only screen and (min-width: 768px){ /* 720px */
+  .grid {
+  	display: flex;
+  	flex-direction: row;
+  }
+  [class*="column one"],
+  [class^="column one"]{
+    max-width: 7.416%;
+  }
+  [class*="column two"],
+  [class^="column two"]{
+    max-width: 15.83%;
+  }
+  [class*="column three"],
+  [class^="column three"]{
+    max-width: 24.25%;
+  }
+  [class*="column four"],
+  [class^="column four"]{
+    max-width: 32.66%;
+  }
+  [class*="column five"],
+  [class^="column five"]{
+    max-width: 41.08%;
+  }
+  [class*="column six"],
+  [class^="column six"]{
+    max-width: 49.5%;
+  }
+  [class*="column seven"],
+  [class^="column seven"]{
+    max-width: 57.91%;
+  }
+  [class*="column eight"],
+  [class^="column eight"]{
+    max-width: 66.33%;
+  }
+  [class*="column nine"],
+  [class^="column nine"]{
+    max-width: 74.75%;
+  }
+  [class*="column ten"],
+  [class^="column ten"]{
+    max-width: 83.16%;
+  }
+  [class*="column eleven"],
+  [class^="column eleven"]{
+    max-width: 91.58%;
+  }
+  [class*="column twelev"],
+  [class^="column twelev"]{
+    max-width: 100%;
+  }
+}

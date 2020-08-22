@@ -1,0 +1,69 @@
+@-webkit-keyframes striped-animation {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@keyframes striped-animation {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+.progress-bar:last-child {
+    border-radius: 0 3px 3px 0;
+}
+.progress {
+  height: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  background-color: $light-theme-background;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.progress-bar {
+  float: left;
+  width: 0%;
+  height: 100%;
+  font-size: 12px;
+  line-height: 23px;
+  color: $default-theme-background;
+  text-align: center;
+  background-color: $dark-100;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: width 0.6s ease;
+  -o-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+.striped .progress-bar,
+.striped {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 40px 40px;
+}
+.progress.animation .progress-bar,
+.progress-bar.animation {
+  -webkit-animation: striped-animation 2s linear infinite;
+  -o-animation: striped-animation 2s linear infinite;
+  animation: striped-animation 2s linear infinite;
+}
+.progress-bar.red {background-color: $red-500;}
+.progress-bar.pink {background-color: $pink-500;}
+.progress-bar.purple {background-color: $purple-500;}
+.progress-bar.indigo {background-color: $indigo-500;}
+.progress-bar.blue {background-color: $blue-500;}
+.progress-bar.cyan {background-color: $cyan-500;}
+.progress-bar.teal {background-color: $teal-500;}
+.progress-bar.green {background-color: $green-500;}
+.progress-bar.yellow {background-color: $yellow-500;}
+.progress-bar.orange {background-color: $orange-500;}
+.progress-bar.brown {background-color: $brown-500;}
+.progress-bar.dark {background-color: $dark-500;}

@@ -1,0 +1,164 @@
+.text.center{
+  text-align: center;
+}
+.text.justify{
+  text-align: justify;
+}
+.text.right{
+  text-align: right;
+}
+.text.left{
+  text-align: left;
+}
+.text.oblique{
+  font-style: oblique
+}
+.text.italic{
+  font-style: italic;
+}
+.text.overline{
+  text-decoration: overline;
+}
+.text.underline{
+  text-decoration: underline;
+}
+.text.line-through{
+  text-decoration: line-through;
+}
+.text.strong,
+.text.bold{
+  font-weight: bolder;
+}
+.text.capitalize{
+  text-transform: capitalize;
+}
+.text.lowercase{
+  text-transform: lowercase;
+}
+.text.uppercase{
+  text-transform: uppercase;
+}
+.text.red{
+  color: $red-600;
+}
+.text.pink{
+  color: $pink-600;
+}
+.text.purple{
+  color: $purple-600;
+}
+.text.indigo{
+  color: $indigo-600;
+}
+.text.blue{
+  color: $blue-600;
+}
+.text.cyan{
+  color: $cyan-600;
+}
+.text.teal{
+  color: $teal-600;
+}
+.text.green{
+  color: $green-600;
+}
+.text.yellow{
+  color: $yellow-600;
+}
+.text.orange{
+  color: $orange-600;
+}
+.text.brown{
+  color: $brown-600;
+}
+.text.dark{
+  color: $dark-600;
+}
+.text.light{
+  color: $dark-theme-text;
+}
+p{
+  margin: 0em 0em 1em;
+  line-height: 1.4285em;
+}
+p:first-child{
+  margin-top: 0em;
+}
+p:last-child{
+  margin-bottom: 0em;
+}
+pre {
+  font-family: $mono-font-family;
+  font-size: 13px;
+  tab-size: 4;
+    -moz-tab-size: 4;
+  padding: 0.5em;
+  margin: 0 0 9px;
+  line-height: 1.42857143;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: $light-theme-text;
+  background-color: $blue-100;
+  border-radius: 4px;
+  page-break-inside: avoid;
+}
+pre.scrollable {
+  max-height: $control-width-sm;
+  overflow-y: scroll;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+  font-family: $base-font-family;
+  line-height: 1.2857em;
+  margin: calc(2rem -  0.14285em ) 0em 1rem;
+  font-weight: bold;
+  padding: 0em;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small{
+  font-size: 75%;
+  font-weight: 400;
+}
+h1{
+  min-height: 1rem;
+  font-size: 2rem;
+}
+
+h2{
+  font-size: 1.714rem;
+}
+
+h3{
+  font-size: 1.28rem;
+}
+
+h4{
+  font-size: 1.071rem;
+}
+
+h5{
+  font-size: 1rem;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child{
+  margin-top: 0em;
+}
+
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child{
+  margin-bottom: 0em;
+}

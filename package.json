@@ -25,5 +25,13 @@
   "homepage": "https://github.com/fury-ui/fury-ui#readme",
   "dependencies": {
     "simple-autoreload-server": "^0.2.7"
+  },
+  "name": "@fury-ui/fury-ui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fury-ui/fury-ui"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

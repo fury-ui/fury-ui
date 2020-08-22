@@ -1,0 +1,29 @@
+{
+  "name": "fury-ui",
+  "version": "1.0.1",
+  "description": "The most popular simple modern UI from Indonesia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fury-ui/fury-ui.git"
+  },
+  "keywords": [
+    "css-framework",
+    "sass-lang",
+    "css3",
+    "modern",
+    "UI"
+  ],
+  "author": "I Am Qye",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fury-ui/fury-ui/issues"
+  },
+  "homepage": "https://github.com/fury-ui/fury-ui#readme",
+  "dependencies": {
+    "simple-autoreload-server": "^0.2.7"
+  }
+}
